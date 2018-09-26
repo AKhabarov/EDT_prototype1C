@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d98ab4d-68a8-4867-bc02-8d71abca8afa">
+  <name>Конфигурация</name>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="e35152f4-2e23-47c0-b310-7e29dea35dd3"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="d7eb1a4a-23cd-434e-9c06-a1b8b345a3aa"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="f0f42ce7-161f-453b-855d-17d0f9544d63"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="e4e7e359-2f77-47fa-a621-8d40f21c4cd6"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="a647166f-a2bc-42f5-b3b4-040b2fb46d2c"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6819fb99-cfbe-4655-bd3b-d69fe862dcee"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor></vendor>
+  <version></version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <compatibilityMode>8.3.11</compatibilityMode>
+  <languages uuid="24417836-5477-442f-940c-41288f9bb561">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Храм</subsystems>
+  <roles>Role.Роль1</roles>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <catalogs>Catalog.Храм_НаправленияПрихода</catalogs>
+  <catalogs>Catalog.Храм_НаправленияРасхода</catalogs>
+  <catalogs>Catalog.Храм_Ящики_и_Кружки</catalogs>
+  <documents>Document.Храм_ЕпархиальныйОтчет</documents>
+  <enums>Enum.Храм_ПериодыЕпархиальногоОтчета</enums>
+  <dataProcessors>DataProcessor.Храм_ПечатьАктаПринятияИмущества</dataProcessors>
+  <informationRegisters>InformationRegister.Храм_КнигаУчета</informationRegisters>
+  <informationRegisters>InformationRegister.Храм_ИнвентаризационнаяКомиссия</informationRegisters>
+  <externalDataSources>ExternalDataSource.БухгалтерияПредприятия30</externalDataSources>
+</mdclass:Configuration>

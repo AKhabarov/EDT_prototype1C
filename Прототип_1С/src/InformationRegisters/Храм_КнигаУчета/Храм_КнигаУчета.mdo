@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f849845-f4cb-47ed-8c95-590c005849d1">
+  <producedTypes>
+    <selectionType typeId="055445b4-c14a-496d-b9a4-01a3adcdf0ed" valueTypeId="b2df3755-6930-45b7-9d9d-0605b00d5083"/>
+    <listType typeId="f599a88a-b7c0-460d-b3e6-8262ebe24a3d" valueTypeId="b4972cc3-5036-4c5e-ae7c-53391c9e9dbf"/>
+    <managerType typeId="77a193e9-3cdc-42a9-b7e2-72ce13d22313" valueTypeId="79207d43-7be5-4258-abb6-4650c4c00fab"/>
+    <recordSetType typeId="8bb6049e-9912-42fa-b5ec-357f48f53d82" valueTypeId="1645a742-37ea-42b1-a1b2-febffdedf5ad"/>
+    <recordKeyType typeId="c55f3d92-e86b-463f-b0c9-d72bbfb66c8e" valueTypeId="207fb017-a674-49ed-aa5e-0f74dee59a9d"/>
+    <recordType typeId="e0c1ee51-a6a3-47b4-90a0-17c0dbcc0666" valueTypeId="aa03ff7e-49bd-44dd-9986-2fa5c5e7c38a"/>
+    <recordManagerType typeId="e50dc973-b1a5-4445-9d10-4055f2456121" valueTypeId="2363f29c-2bbd-4810-bf2c-b6b1952f71d3"/>
+  </producedTypes>
+  <name>Храм_КнигаУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Книга учета (храм)</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Храм_КнигаУчета.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Храм_КнигаУчета.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6793927a-8380-4643-8694-a8852a58ca21">
+    <name>СуммаПриход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма приход</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <markNegatives>true</markNegatives>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="96364bc1-aad1-41fe-8287-cbf29af2c3e1">
+    <name>СуммаРасход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма расход</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <markNegatives>true</markNegatives>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1e31e31d-f98f-4d12-ba0c-cc211074fe26">
+    <name>ДокументХозяйственнойОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ операции</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="39ae8707-1bd4-499e-a1c9-764103de8be8">
+    <name>НаправлениеПрихода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление прихода</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Храм_НаправленияПрихода</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0a1c2954-6b1c-47b7-b8ac-38061b1201f9">
+    <name>НаправлениеРасхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление расхода</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Храм_НаправленияРасхода</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ad520f72-d005-4695-a063-bc76c568ac93">
+    <name>Ящик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ящик</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Храм_Ящики_и_Кружки</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="45cd23ea-1637-4183-812b-40c7529c557c">
+    <name>ТипДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип документа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e04a75d8-2a2d-4437-a997-66ac3e8753fb">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1d54ef9f-9268-4d2c-88e3-52af9439b57c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="86e2018f-29dc-40df-992f-08ae4bc2baee">
+    <name>ПФ_MXL_Храм_АктВскрытияЯщиковСбораПожертвований</name>
+    <synonym>
+      <key>ru</key>
+      <value>АКТ ВСКРЫТИЯ ЯЩИКОВ (КРУЖЕК) ДЛЯ СБОРА ПОЖЕРТВОВАНИЙ</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="b213a0ea-c849-4f0b-954f-94390ae20b56">
+    <name>ПФ_MXL_Храм_АктПриемаПожертвований</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт приема пожертвований от лица, пожелавшего остаться неизвестным</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="908bdfab-5af1-4a39-bbc3-c45a8d0b2652">
+    <name>ПФ_MXL_Храм_ОтчетОПоступленииПожертвований</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет о поступлении пожертвований</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:InformationRegister>

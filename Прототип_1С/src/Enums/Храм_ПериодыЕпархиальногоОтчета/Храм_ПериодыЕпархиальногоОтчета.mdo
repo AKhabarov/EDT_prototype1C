@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f3c0cbc-a3c0-43b0-9a68-63a65189863e">
+  <producedTypes>
+    <refType typeId="a9f246c4-3bfe-4d72-9f34-73868f93239c" valueTypeId="61c2000a-e74a-430b-90fc-d7c57e1c3822"/>
+    <listType typeId="5a33fbb7-559b-4253-9c53-81f3fd019626" valueTypeId="bc939894-69b1-419f-849a-68f645a2d670"/>
+    <managerType typeId="87667902-8372-4238-b898-037d8882f5c2" valueTypeId="2b166889-3061-464f-b27f-d6a870888ddc"/>
+  </producedTypes>
+  <name>Храм_ПериодыЕпархиальногоОтчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периоды епархиального отчета (храм)</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9110f34f-25e7-48b8-8905-62007c996358">
+    <name>ПервыйКвартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>1 квартал</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="8a7d4cfa-1453-4a23-a129-f4186002be03">
+    <name>ВторойКвартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>2 квартал</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="99efd6cc-cd9c-4d90-aa4e-1874d8f178ea">
+    <name>ТретийКвартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>3 квартал</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2a21c35b-37cb-4834-a88d-9ae4ab944f20">
+    <name>ЧетвертыйКвартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>4 квартал</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="100882c9-5d00-4eca-9f2c-ac02ceaf1dc1">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>год</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

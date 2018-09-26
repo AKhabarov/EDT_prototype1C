@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fae5536-a61e-4abe-b292-c521db011c92">
+  <name>Храм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Храм</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Храм_НаправленияПрихода</content>
+  <content>Catalog.Храм_НаправленияРасхода</content>
+  <content>InformationRegister.Храм_КнигаУчета</content>
+  <content>Document.Храм_ЕпархиальныйОтчет</content>
+  <content>Catalog.Храм_Ящики_и_Кружки</content>
+  <content>InformationRegister.Храм_ИнвентаризационнаяКомиссия</content>
+  <content>DataProcessor.Храм_ПечатьАктаПринятияИмущества</content>
+  <content>ExternalDataSource.БухгалтерияПредприятия30.Table.Организации</content>
+  <content>ExternalDataSource.БухгалтерияПредприятия30.Table.Контрагенты</content>
+  <content>ExternalDataSource.БухгалтерияПредприятия30.Table.ПриходныйКассовыйОрдер</content>
+  <content>ExternalDataSource.БухгалтерияПредприятия30.Table.РасходныйКассовыйОрдер</content>
+  <content>ExternalDataSource.БухгалтерияПредприятия30.Table.СписаниеСРасчетногоСчета</content>
+  <content>ExternalDataSource.БухгалтерияПредприятия30.Table.ПоступлениеНаРасчетныйСчет</content>
+</mdclass:Subsystem>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38516a8d-2e17-441f-9949-d7553e8305f8">
+  <producedTypes>
+    <objectType typeId="daf520e7-e52b-4807-a3d4-ccae1e79ee47" valueTypeId="ebecdc6d-0a21-4e9b-9993-b73ec66fe03e"/>
+    <managerType typeId="744985fd-9147-4ab1-af1c-cadc0b168749" valueTypeId="680f41e8-b296-4e15-9fdb-65aa96f5a990"/>
+  </producedTypes>
+  <name>Храм_ПечатьАктаПринятияИмущества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Храм печать акта принятия имущества</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Храм_ПечатьАктаПринятияИмущества.Form.Форма</defaultForm>
+  <attributes uuid="449d5533-68b6-4a88-a2c8-bf72c1eeae12">
+    <name>СсылкаНаОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на объект</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="3dd2e3d4-da7f-46b0-a70e-78f7016e5d8c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f413c1d1-e9ca-40dd-bce1-d8e5b538f14f">
+    <name>ПФ_MXL_Храм_АктПринятияИмущества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт принятия имущества полученного в качестве пожертвования</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:DataProcessor>
