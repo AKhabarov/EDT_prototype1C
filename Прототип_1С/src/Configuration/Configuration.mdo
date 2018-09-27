@@ -33,9 +33,11 @@
   <subsystems>Subsystem.Храм</subsystems>
   <roles>Role.Роль1</roles>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <catalogs>Catalog.Справочник1</catalogs>
   <catalogs>Catalog.Храм_НаправленияПрихода</catalogs>
   <catalogs>Catalog.Храм_НаправленияРасхода</catalogs>
   <catalogs>Catalog.Храм_Ящики_и_Кружки</catalogs>
+  <catalogs>Catalog.Справочник</catalogs>
   <documents>Document.Храм_ЕпархиальныйОтчет</documents>
   <enums>Enum.Храм_ПериодыЕпархиальногоОтчета</enums>
   <dataProcessors>DataProcessor.Храм_ПечатьАктаПринятияИмущества</dataProcessors>
